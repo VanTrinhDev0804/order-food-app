@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
+            android:name=".Views.ShowDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.CartListActivity"
+            android:exported="false" />
+        <activity
             android:name=".Views.CreateAccountActivity"
             android:exported="false" />
         <activity

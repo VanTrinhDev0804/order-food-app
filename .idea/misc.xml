@@ -11,15 +11,21 @@
         <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/drawable/icon_password.xml" value="0.236986301369863" />
         <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/drawable/no_background_btn.xml" value="0.236986301369863" />
         <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/drawable/round_corner.xml" value="0.176" />
+        <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/drawable/search_back.xml" value="0.24027777777777778" />
         <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/drawable/white_btn.xml" value="0.176" />
         <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/layout/activity_card_list.xml" value="0.1" />
+        <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/layout/activity_cart_list.xml" value="0.22592592592592592" />
         <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/layout/activity_create_account.xml" value="0.19907407407407407" />
         <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/layout/activity_login.xml" value="0.24010416666666667" />
         <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/layout/activity_show_detail.xml" value="0.22592592592592592" />
         <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/layout/fragment_account.xml" value="0.22592592592592592" />
         <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/layout/fragment_home.xml" value="0.22592592592592592" />
         <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/layout/fragment_setting.xml" value="0.22592592592592592" />
         <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/layout/fragment_support.xml" value="0.22592592592592592" />
+        <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/layout/item_category.xml" value="0.22592592592592592" />
+        <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/layout/item_listcart.xml" value="0.22592592592592592" />
+        <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/layout/item_popular.xml" value="0.22592592592592592" />
         <entry key="..\:/workspace/BTPTUD/BTPTUD/OrderFood/app/src/main/res/menu/item_menu.xml" value="0.22592592592592592" />
       </map>
     </option>
