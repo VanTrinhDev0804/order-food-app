@@ -8,16 +8,17 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="24dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-<!--        app:srcCompat="@drawable/profile3"-->
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile111" />
 
 
     <ImageView
@@ -28,7 +29,9 @@
         app:layout_constraintBottom_toBottomOf="@+id/textView11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView11"
-        app:srcCompat="@drawable/bottom_btn2" />
+        app:srcCompat="@drawable/bottom_btn2"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView11"
@@ -37,7 +40,8 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="5dp"
-        android:text="Full Name"
+        android:text="@string/full_name"
+        android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.486"
@@ -46,16 +50,18 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="350dp"
-        android:layout_height="54dp"
+        android:layout_width="393dp"
+        android:layout_height="62dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="5dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="@string/name"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        android:importantForAutofill="no" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -64,8 +70,9 @@
         android:layout_marginStart="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView15"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView15"/>
-<!--        app:srcCompat="@drawable/email1"-->
+        app:layout_constraintTop_toTopOf="@+id/textView15"
+        app:srcCompat="@drawable/email1"
+        android:contentDescription="@string/todo" />
 
 
     <TextView
@@ -75,7 +82,8 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="5dp"
-        android:text="Email"
+        android:text="@string/email"
+        android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.486"
@@ -84,16 +92,19 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="351dp"
-        android:layout_height="48dp"
+        android:layout_width="393dp"
+        android:layout_height="51dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="5dp"
         android:ems="10"
         android:inputType="textEmailAddress"
+        android:text="@string/your_email_address"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView15"
         app:layout_constraintTop_toBottomOf="@+id/textView15"
-        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+        android:importantForAutofill="no" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -102,9 +113,9 @@
         android:layout_marginStart="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView17"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView17"/>
-<!--        app:srcCompat="@drawable/phone11" -->
-        />
+        app:layout_constraintTop_toTopOf="@+id/textView17"
+        app:srcCompat="@drawable/phone11"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView17"
@@ -113,7 +124,8 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="5dp"
-        android:text="TextView"
+        android:text="@string/phone"
+        android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView8"
@@ -121,20 +133,23 @@
 
     <EditText
         android:id="@+id/editTextPhone"
-        android:layout_width="351dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="5dp"
+        android:layout_width="393dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="5dp"
         android:ems="10"
         android:inputType="phone"
+        android:text="@string/phone_number"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView17"
         app:layout_constraintTop_toBottomOf="@+id/textView17"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="160dp"
+        android:layout_width="413dp"
+        android:layout_height="163dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -145,18 +160,28 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:background="@color/app_primary"
+            android:text="@string/change_profile"
+            android:textColor="#212121" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_marginTop="5dp"
+            android:background="@color/app_primary"
+            android:text="@string/reset_password"
+            android:textColor="#212121" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_marginTop="5dp"
+            android:background="@color/app_primary"
+            android:minHeight="48dp"
+            android:text="@string/logout"
+            android:textColor="@color/black"
+            tools:ignore="TextContrastCheck" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
