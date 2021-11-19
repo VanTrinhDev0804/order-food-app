@@ -50,18 +50,19 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="393dp"
-        android:layout_height="62dp"
+        android:layout_width="351dp"
+        android:layout_height="59dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="5dp"
         android:ems="10"
+        tools:ignore="LabelFor"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:text="@string/name"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/textView11"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -92,19 +93,19 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="393dp"
-        android:layout_height="51dp"
+        android:layout_width="351dp"
+        android:layout_height="59dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="5dp"
         android:ems="10"
+        android:importantForAutofill="no"
         android:inputType="textEmailAddress"
         android:text="@string/your_email_address"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView15"
         app:layout_constraintTop_toBottomOf="@+id/textView15"
-        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
-        android:importantForAutofill="no" />
+        tools:ignore="LabelFor" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -133,19 +134,19 @@
 
     <EditText
         android:id="@+id/editTextPhone"
-        android:layout_width="393dp"
-        android:layout_height="51dp"
+        android:layout_width="351dp"
+        android:layout_height="59dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="5dp"
         android:ems="10"
+        android:importantForAutofill="no"
         android:inputType="phone"
         android:text="@string/phone_number"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView17"
         app:layout_constraintTop_toBottomOf="@+id/textView17"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
+        tools:ignore="LabelFor" />
 
     <LinearLayout
         android:layout_width="413dp"
@@ -160,28 +161,30 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/app_primary"
+            android:background="?android:attr/colorPressedHighlight"
             android:text="@string/change_profile"
-            android:textColor="#212121" />
+            android:textColor="@color/white"
+            tools:ignore="TextContrastCheck" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:background="@color/app_primary"
+            android:background="?android:attr/colorPressedHighlight"
             android:text="@string/reset_password"
-            android:textColor="#212121" />
+            android:textColor="@color/white"
+            tools:ignore="TextContrastCheck" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:background="@color/app_primary"
+            android:background="?android:attr/colorPressedHighlight"
             android:minHeight="48dp"
             android:text="@string/logout"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             tools:ignore="TextContrastCheck" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
