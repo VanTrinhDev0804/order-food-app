@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content">
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/recyclerView2"
+                    android:id="@+id/listPopularView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:clipToPadding="false"
@@ -40,10 +40,10 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView10" />
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
 
                 <TextView
-                    android:id="@+id/textView10"
+                    android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="40dp"
@@ -53,7 +53,7 @@
                     android:textSize="18sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
+                    app:layout_constraintTop_toBottomOf="@+id/listCategoryView" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -199,7 +199,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/recyclerView"
+                    android:id="@+id/listCategoryView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
@@ -220,7 +220,7 @@
                     app:backgroundTint="#ff5e00"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/recyclerView2"
+                    app:layout_constraintTop_toBottomOf="@+id/listPopularView"
                     app:maxImageSize="30dp"
                     app:tint="#ffffff"
                     tools:ignore="SpeakableTextPresentCheck" />

@@ -9,7 +9,7 @@
     android:elevation="3dp">
 
     <ImageView
-        android:id="@+id/pic"
+        android:id="@+id/picPopuler"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="16dp"
@@ -17,11 +17,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/titlePopular"
         app:srcCompat="@drawable/pizza2" />
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/titlePopular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -39,7 +39,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/fee"
+        android:id="@+id/txtPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0.0"
@@ -48,7 +48,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pic" />
+        app:layout_constraintTop_toBottomOf="@+id/picPopuler" />
 
     <TextView
         android:id="@+id/textView14"
@@ -57,9 +57,9 @@
         android:layout_marginEnd="3dp"
         android:text="$"
         android:textColor="#ff3d00"
-        app:layout_constraintBottom_toBottomOf="@+id/fee"
-        app:layout_constraintEnd_toStartOf="@+id/fee"
-        app:layout_constraintTop_toBottomOf="@+id/pic" />
+        app:layout_constraintBottom_toBottomOf="@+id/txtPrice"
+        app:layout_constraintEnd_toStartOf="@+id/txtPrice"
+        app:layout_constraintTop_toBottomOf="@+id/picPopuler" />
 
     <TextView
         android:id="@+id/addBtn"
@@ -77,5 +77,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fee" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPrice" />
 </androidx.constraintlayout.widget.ConstraintLayout>
